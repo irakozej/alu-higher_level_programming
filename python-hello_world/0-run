@@ -1,2 +1,2 @@
 #!/bin/bash
-C is fun!
+echo "C is fun!"
