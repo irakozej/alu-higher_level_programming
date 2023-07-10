@@ -1,1 +1,1 @@
-C is fun
+Python - Hello, World
