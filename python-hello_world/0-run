@@ -1,2 +1,2 @@
-#!/bin/bash
+/c/Users/ADMIN/AppData/Local/Microsoft/WindowsApps/python3
 python3 "$PYFILE"
