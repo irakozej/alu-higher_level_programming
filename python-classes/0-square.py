@@ -1,5 +1,9 @@
 #!/usr/bin/python3
-class Square:
 """ This is class documentation."""
-pass
+
+
+class Square:
 """This is an empty block."""
+
+
+pass
