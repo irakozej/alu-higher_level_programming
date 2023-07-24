@@ -1,14 +1,14 @@
 #!/usr/bin/python3
-"""This is module doc"""
+"""Define a class Square."""
 
 
 class Square:
-    """ This is class documentation """
-    
+    """Represent a square."""
+
     def __init__(self, size):
-        """initializing new square.
+        """Initialize a new Square.
 
         Args:
-            size(int):The size of the square.
-            """
-            self.__size = size
+            size (int): The size of the new square.
+        """
+        self.__size = size
