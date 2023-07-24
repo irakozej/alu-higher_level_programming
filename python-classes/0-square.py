@@ -1,4 +1,5 @@
 #!/usr/bin/python3
 class Square:
-    pass
-v = Square()
+""" This is class documentation."""
+pass
+"""This is an empty block."""
