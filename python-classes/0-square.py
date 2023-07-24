@@ -2,4 +2,3 @@
 class Square:
     pass
 v = Square()
-print(v)
