@@ -1,23 +1,15 @@
 #!/usr/bin/python3
-"""
-This module defines the Square class
-"""
-
-
+"""This module defines the Square class"""
 
 class Square:
-
-
-    """
-    this is class boddy
-    """
+    """this is class boddy"""
 
 
     def __init__(self, size=0):
         """decralation and  initializing class variables
 
 
-Args:
+          Args:
             size (int): The size of the square.
 
         Raises:
