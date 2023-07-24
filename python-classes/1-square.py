@@ -5,10 +5,14 @@ This is module doc
 
 
 class Square:
-    __size
-
-
     """
-    This is class documentation
+    This is class documentation'
     """
-    pass 
+    
+    def __init__(self, size):
+        """initializing new square.
+
+        Args:
+            size(int):The size of the square.
+            """
+            self.__size = size
