@@ -1,8 +1,18 @@
 #!/usr/bin/python3
-"""5this module defines int variable"""
+"""
+This module defines the Square class
+"""
+
+
 
 class Square:
-    """this is class boddy"""
+
+
+    """
+    this is class boddy
+    """
+
+
     def __init__(self, size=0):
         """decralation and  initializing class variables
 
