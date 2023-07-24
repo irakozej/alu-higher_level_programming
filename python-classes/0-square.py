@@ -1,9 +1,13 @@
 #!/usr/bin/python3
-""" This is class documentation."""
+"""
+This is class documentation.
+"""
 
 
 class Square:
-"""This is an empty block."""
+"""
+This is an empty block.
+"""
 
 
 pass
