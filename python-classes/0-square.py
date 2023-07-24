@@ -1,13 +1,11 @@
 #!/usr/bin/python3
 """
-This is class documentation.
+This module defines the Square class.
 """
 
 
 class Square:
-"""
-This is an empty block.
-"""
-
-
-pass
+    """
+    This class represents a square.
+    """
+    pass
