@@ -1,11 +1,15 @@
 #!/usr/bin/python3
 """This is module documentation"""
 
+
+
 class Square:
     """This is class module"""
 
+    
     def __init__(self, size = 0):
         """initialize size variable.
+
 
         Args:
         size(int):The size of the new square
