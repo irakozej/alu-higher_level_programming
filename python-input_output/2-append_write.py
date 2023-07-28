@@ -3,15 +3,16 @@
 """
 Module: append_write.py
 
-This module provides a function to append a string to the end of a text file (UTF8) and return the number of characters added.
+module provide a function to add  a string to the end of a text file and return the number of characters added.
 """
+
 
 def append_write(filename="", text=""):
     """
-    Append a string to the end of a text file (UTF8) and return the number of characters added.
+Add a string to the end of a text file and return the number of characters added.
 
     Args:
-        filename (str): The name of the file to which the text will be appended.
+        filename (str): The name of the file to which the text will be added.
         text (str): The string to be appended to the file.
 
     Returns:

@@ -3,12 +3,13 @@
 """
 Module: write_file.py
 
-This module provides a function to write a string to a text file (UTF8) and return the number of characters written.
+This module that  return the number of characters written.
 """
+
 
 def write_file(filename="", text=""):
     """
-    Write a string to a text file (UTF8) and return the number of characters written.
+    a string to return the number of characters written.
 
     Args:
         filename (str): The name of the file to be written.
