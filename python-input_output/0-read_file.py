@@ -3,7 +3,7 @@
 """
 Module: read_file.py
 
-This module provides a function to read a text file and print contents to stdout.
+module provide a function to read a textfile and print content to stdout.
 """
 
 
