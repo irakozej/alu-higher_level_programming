@@ -3,8 +3,9 @@
 """
 Module: read_file.py
 
-This module provides a function to read a text file (UTF8) and print its contents to stdout.
+This module provides a function to read a text file and print contents to stdout.
 """
+
 
 def read_file(filename=""):
     """
@@ -20,4 +21,4 @@ def read_file(filename=""):
         print(file.read(), end='')
 
 if __name__ == "__main__":
-    read_file()  # Assuming the file name is provided as a command-line argument.
+    read_file()  # Assume the file name is given as a command-line argument.
