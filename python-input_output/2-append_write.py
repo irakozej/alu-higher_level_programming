@@ -9,7 +9,6 @@ module that return the number of characters added.
 
 def append_write(filename="", text=""):
 
-
     """
 Add a string and return the number of characters added.
 
