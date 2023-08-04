@@ -1,31 +1,16 @@
 #!/usr/bin/python3
-
-
+"""A script that
+- fetches https://intranet.hbtn.io/status.
+- uses urlib package
 """
 
-Module to fetch and display the status from given URLs
-"""
 
-import urllib.request
+if __name__ == '__main__':
+    import urllib.request
 
-def fetch_and_display_status(url):
-    """
-    Fetches the status from the given URL and displays the response body.
-    Args:
-        url (str): The URL to fetch the status from.
-    """
-    with urllib.request.urlopen(url) as response:
-        content = response.read()
-        content = content.decode('utf-8')
-
-    print("Body response:")
-    print("\t- type: {}".format(type(content)))
-    print("\t- content: {}".format(content))
-
-if __name__ == "__main__":
-    intranet_url = 'https://intranet.hbtn.io/status'
-    local_url = 'http://0.0.0.0:5050/status'
-    
-    fetch_and_display_status(intranet_url)
-    fetch_and_display_status(local_url)
-
+    with urllib.request.urlopen('https://intranet.hbtn.io/status') as res:
+        content = res.read()
+        print("Body response:")
+        print("\t- type: {}".format(type(content)))
+        print("\t- content: {}".format(content))
+        print("\t- utf8 content: {}".format(content.decode('utf-8')))
