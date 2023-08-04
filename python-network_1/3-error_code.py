@@ -1,9 +1,5 @@
-<<<<<<< HEAD
-cript that:
-=======
 #!/usr/bin/python3
 """A script that:
->>>>>>> 8c392c40d3e8fcfcd561d0bc6aee21a3840791ab
 - takes in a URL,
 - sends a request to the URL
 - displays the body of the response (decoded in utf-8).
