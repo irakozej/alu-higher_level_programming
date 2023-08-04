@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 cript tha:
+=======
+#!/usr/bin/python3
+"""A script tha:
+>>>>>>> 8c392c40d3e8fcfcd561d0bc6aee21a3840791ab
 - takes in a letter
 - sends POST request to http://0.0.0.0:5000/search_user
 with the letter as a parameter.
