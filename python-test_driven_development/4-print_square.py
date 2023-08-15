@@ -1,16 +1,27 @@
 #!/usr/bin/python3
-print_square = __import__('4-print_square').print_square
+"""_summary_
+Write a function that prints a square with the character #.
+"""
 
-print_square(4)
-print("")
-print_square(10)
-print("")
-print_square(0)
-print("")
-print_square(1)
-print("")
-try:
-    print_square(-1)
-except Exception as e:
-    print(e)
-print("")
+
+def print_square(size):
+    """_summary_
+
+    Args:
+        size (_type_): _The size of each side of the square_
+
+    Raises:
+        TypeError: _If size is a float object and it's less than 0_
+        TypeError: _If size is not an integer object_
+        ValueError: _If size is less than 0_
+    """
+
+    if isinstance(size, float) and size < 0:
+        raise TypeError("size must be an integer")
+    elif not isinstance(size, int):
+        raise TypeError("size must be an integer")
+    elif size < 0:
+        raise ValueError("size must be >= 0")
+
+    for row in range(size):
+        print('#' * size)
