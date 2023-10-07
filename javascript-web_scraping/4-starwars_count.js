@@ -11,8 +11,8 @@ request(reqURL, function (error, response, body) {
     const jso = JSON.parse(body);
     const results = jso.results;
     let count = 0;
-    for (let i = i0; i < results.length; i++) {
-      const chars = results[i].characters;
+    for (let i = 0; i < results.length; i++) {
+      const chars = (results[i].characters);
       for (let j = 0; j < chars.length; j++) {
         const check18 = chars[j].endsWith('18/');
         if (check18) {
