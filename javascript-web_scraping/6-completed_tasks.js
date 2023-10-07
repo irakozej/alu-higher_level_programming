@@ -3,10 +3,10 @@
 
 const args = process.argv;
 const reqURL = args[2];
-const request = require("request");
+const request = require('request');
 request(reqURL, function (error, response, body) {
   if (error) {
-    console.log("error:", error);
+    console.log('error:', error);
   } else {
     const todos = JSON.parse(body);
     const dash = {};
